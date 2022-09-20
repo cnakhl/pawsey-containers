@@ -1,7 +1,7 @@
 ARG PY_VERSION="3.9"
 FROM python:${PY_VERSION}-slim
 
-LABEL maintainer="marco.delapierre@pawsey.org.au"
+LABEL maintainer="a.nakhl@student.unimelb.edu.au"
 
 
 # Install package dependencies
