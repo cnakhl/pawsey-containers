@@ -76,9 +76,9 @@ docker build \
   --build-arg PY_VERSION="${py_ver}" \
   --build-arg MPICH_VERSION="${mpich_ver}" \
   --build-arg DATE_FILE="${date_file}" \
-  -t quay.io/pawsey/$image .
+  -t quay.io/cnakhl/$image .
 # Push
-docker push quay.io/pawsey/$image
+docker push quay.io/cnakhl/$image
 cd ..
 
 # Commit Git changes, and push new branch to remote
