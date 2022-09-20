@@ -17,3 +17,11 @@ plotly
 pytest
 scikit-learn
 scipy
+quimb
+qiskit
+autoray
+opt_einsum
+networkx
+argparse
+sqlalchemy
+tensornetwork
